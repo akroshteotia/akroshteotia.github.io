@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">	
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<head>
+		<title>Poise Games | Game Development</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<!-- Critical styles
+		================================================== -->
+		<link rel="stylesheet" href="css/critical.min.css" type="text/css">
+		<script type="text/javascript" src="js/device.min.js"></script>
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<!-- start header -->
+			<header id="top-bar" class="top-bar top-bar--dark" data-nav-anchor="true">
+				<div class="top-bar__inner">
+					<div class="container-fluid">
+						<div class="row align-items-center no-gutters">
+
+							<a class="top-bar__logo site-logo" href="index.html">
+								<img class="img-fluid" src="img/site_logo/logo_2.png" width="159" height="45" alt="demo" />
+							</a>
+
+							<a id="top-bar__navigation-toggler" class="top-bar__navigation-toggler" href="javascript:void(0);">
+								<span></span>
+							</a>
+
+							<div class="top-bar__collapse">
+								<nav id="top-bar__navigation" class="top-bar__navigation" role="navigation">
+									<ul>
+										<li>
+											<a class="nav-link active" href="index.html">Home</a>
+										</li>
+										
+										<li>
+											<a class="nav-link" href="about_us.html">About us</a>
+										</li>
+										
+										<li class="has-submenu">
+											<a class="nav-link" href="javascript:void(0);">Our Services</a>
+
+											<ul class="submenu">
+												<li><a href="game-development.html">Game Development</a></li>
+												<li><a href="app-development.html">Mobile App Development</a></li>
+												<li><a href="web-development.html">Web Development</a></li>
+												<li><a href="e-commerce.html">E-Commerce Solutions</a></li>
+												<li><a href="software-solution.html">Software Solutions</a></li>
+												<li><a href="seo.html">Search Engine Optimization (SEO)</a></li>
+											</ul>
+										</li>
+
+										<li>
+											<a class="nav-link" href="portfolio.html">Our Work</a>
+										</li>
+
+										<li>
+											<a class="nav-link" href="blog1.html">Blog</a>
+										</li>
+										
+										<li>
+											<a class="nav-link" href="contact-us.html">Contact us</a>
+										</li>
+									</ul>
+								</nav>
+
+								<div id="top-bar__action" class="top-bar__action">
+									<div class="d-xl-flex flex-xl-row flex-xl-wrap align-items-xl-center">
+										<div class="top-bar__auth-btns">
+											<!--<a href="sign_in.html">Sign In</a>-->
+
+											<a class="custom-btn custom-btn--medium custom-btn--style-3" href="#get_in_touch">Get in Touch</a>
+										</div>
+
+										<div class="top-bar__side-menu-button js-side-menu-open">
+											<span class="line"></span>
+											<span class="line"></span>
+											<span class="line"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header -->
+
+			<!-- start side menu -->
+			<div id="side-menu" class="side-menu  d-none">
+				<span class="side-menu__button-close  js-side-menu-close"></span>
+
+				<div class="side-menu__inner">
+					<div>
+						<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_1.png" width="159" height="45" alt="demo" />
+					</div>
+					<address class="side-menu__address">
+						Poise Games, Nav Durga Colony,
+						Behind Bharat Gas Godam, Ghar road, Harpur-245101 <br>
+						Uttar Pradesh, India.<br>
+						<a href="mailto:info@poisegames.com">info@poisegames.com</a> <br>
+						<a href="#">+91- 7895898171, +91- 7742616674</a>
+
+						<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+							<ul class="d-flex flex-row flex-wrap align-items-center">
+								<li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>
+								<li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>
+								<li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>
+								<li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>
+							</ul>
+						</div>
+					</address>
+				</div>
+			</div>
+			<!-- end side menu -->
+
+			<!-- start hero -->
+			<div id="hero" class="hero jarallax" data-speed="0.7" data-img-position="50% 90%" style="background-image: url(img/hero_img/poisegames-game-banner.jpg);">
+				<div class="container">
+					<h1 class="hero__title"><span style="border: 2px solid #b7dfe7;background-color: #ffffffb3;padding: 5px 20px;">Game Development</span></h1>
+				</div>
+			</div>
+			<!-- end hero -->
+
+			<!-- start main -->
+			<main role="main">
+				<!-- Common styles
+				================================================== -->
+				<link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+				<!-- Load lazyLoad scripts
+				================================================== -->
+				<script>
+					(function(w, d){
+						var m = d.getElementsByTagName('main')[0],
+							s = d.createElement("script"),
+							v = !("IntersectionObserver" in w) ? "8.17.0" : "12.0.0",
+							o = {
+								elements_selector: ".lazy",
+								threshold: 500,
+								callback_enter: function (element) {
+
+								},
+								callback_load: function (element) {
+
+								},
+								callback_set: function (element) {
+
+									oTimeout = setTimeout(function ()
+									{
+										clearTimeout(oTimeout);
+
+										AOS.refresh();
+									}, 1000);
+								},
+								callback_error: function(element) {
+									element.src = "https://placeholdit.imgix.net/~text?txtsize=21&amp;txt=Image%20not%20load&amp;w=200&amp;h=200";
+								}
+							};
+						s.type = 'text/javascript';
+						s.async = false; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+						s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+						m.appendChild(s);
+						// m.insertBefore(s, m.firstChild);
+						w.lazyLoadOptions = o;
+					}(window, document));
+				</script>
+
+				<!-- start section -->
+				<section class="section">
+					<div class="container">
+						<div class="row flex-lg-row-reverse align-items-lg-center">
+							<div class="col-12 col-lg-12">
+								<div class="section-heading">
+									<h6 class="__subtitle">Poise Games</h6>
+									<h2 class="__title">Best Mobile Game Development Company in Industry</h2>
+								</div>
+
+								<div class="spacer py-4"></div>
+
+								<div>
+									<p>
+										Poise Games is a foremost mobile game development company, offering intuitive mobile game development services across different platforms Android, iOS, Windows and Native. Our well versed game developers build unique high end game applications for the users with the focus to deliver a game application with spectacular graphics, HD display, high end processor and other essential attributes.
+
+										Our team brings stunning and animated game solutions for the users. The leading mobile game development company aim is to bring our customers ideas into reality and offer them the game application according to the competitive market which can meet all the demands of user, clients and players in terms of modernity and advance features.
+									</p>
+								</div>
+							</div>
+
+							<div class="spacer py-5 d-lg-none"></div>
+						</div>
+					</div>
+				</section>
+				<!-- end section -->
+			</main>
+			<!-- end main -->
+
+			<!-- start footer -->
+			<footer class="footer footer--s1 footer--color-light">
+				<div class="footer__line footer__line--first">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-4 col-lg-4 col-xl-3">
+								<div class="footer__item">
+									<a class="footer__logo site-logo" href="index.html">
+										<img class="img-fluid lazy" src="img/blank.gif" data-src="img/site_logo/logo_3.png" width="159" height="45" alt="demo" />
+									</a>
+								</div>
+
+								<div class="footer__item">
+									<span class="__copy">Copyrights 2020 © <a class="__dev" href="http://www.poisegames.com/" target="_blank">Poise Games</a></span>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-3 offset-xl-1">
+								<div class="footer__item">
+									<address class="footer__address footer__address--s1">
+										Poise Games, Nav Durga Colony,
+										Behind Bharat Gas Godam, Ghar road, Harpur-245101 <br>
+										Uttar Pradesh, India.<br>
+										<a href="mailto:info@poisegames.com">info@poisegames.com</a> <br>
+										<a href="#">+91- 7895898171, +91- 7742616674</a>
+									</address>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-3 col-lg-2">
+								<div class="footer__item">
+									<nav id="footer__navigation" class="footer__navigation">
+										<ul>
+											<!-- li class="active" -->
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About Us</a></li>
+											<li><a href="#">Our Services</a></li>
+											<li><a href="#">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<div class="footer__item">
+									<!-- start social buttons -->
+									<div class="s-btns s-btns--md s-btns--colored s-btns--rounded">
+										<ul class="d-flex flex-row flex-wrap align-items-center">
+											<li><a class="f" href="#"><i class="fontello-facebook"></i></a></li>
+											<li><a class="t" href="#"><i class="fontello-twitter"></i></a></li>
+											<li><a class="y" href="#"><i class="fontello-youtube-play"></i></a></li>
+											<li><a class="i" href="#"><i class="fontello-instagram"></i></a></li>
+										</ul>
+									</div>
+									<!-- end social buttons -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__waves-container">
+					<svg class="footer__wave js-wave" data-wave='{"height": 40, "bones": 6, "amplitude": 70, "color": "rgba(78, 111, 136, 0.14)", "speed": 0.3}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+
+					<svg class="footer__wave js-wave" data-wave='{"height": 60, "bones": 5, "amplitude": 90, "color": "rgba(243, 248, 249, 0.02)", "speed": 0.35}' width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d=""/></svg>
+				</div>
+			</footer>
+			<!-- end footer -->
+		</div>
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="../../../ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')</script>
+
+		<script src="../../../stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.min.js"></script>
+		
+	</body>
+</html>
